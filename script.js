@@ -29,7 +29,6 @@ myImage.addEventListener("load", function () {
     }
     mappedImage.push(row);
   }
-  console.log(mappedImage);
 
   function calculateRelativeBrightness(red, green, blue) {
     return Math.sqrt(red * red * 0.29 + green * green * 0.587 + blue * blue * 0.114) / 100;
